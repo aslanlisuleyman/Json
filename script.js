@@ -1,11 +1,11 @@
 const taskList = document.getElementById('tasklist');
-const taskForm = document.querySelector('.task-form');
+const taskForm = document.getElementById('task-form');
 const formInput = document.getElementById('forminput');
-const clear = document.querySelector('#clear');
-const overlay = document.querySelector('.overlay');
-const updateModal = document.querySelector('.update-modal');
-const updateForm = document.querySelector('.update-form');
-const updateModalCloseButton = updateModal.querySelector('.cross');
+const clear = document.getElementById('clear');
+const overlay = document.querySelector('#overlay');
+const updateModal = document.querySelector('#update-modal');
+const updateForm = document.querySelector('#update-form');
+const updateModalCloseButton = updateModal.querySelector('#cross');
 
 let editedTask =''
 

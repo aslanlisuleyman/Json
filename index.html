@@ -18,7 +18,7 @@
             </h1>
         </header>
     
-        <form class="task-form">
+        <form class="task-form" id="task-form">
             <input type="text" class="form-item input-task" placeholder="Add" id="forminput">
             <button class="form-item btn-task-add" type="submit" id="btn-task-add">
                 <i class="far fa-plus-square"></i>
@@ -34,10 +34,10 @@
     </div>
   </div>
 
-  <div class="update-modal">
+  <div class="update-modal" id="update-modal">
     <div class="update-wrapper">
-        <div class="cross">X</div>
-        <form class="update-form">
+        <div class="cross" id="cross">X</div>
+        <form class="update-form" id="update-form">
             <h3>Edit Task</h3>
             <div class="mb-3">
               <label for="task" class="form-label">Task</label>
@@ -47,7 +47,7 @@
           </form>
     </div>
   </div>
-  <div class="overlay"></div>
+  <div class="overlay" id="overlay"></div>
 
     <script src="./script.js"></script>
 </body>
